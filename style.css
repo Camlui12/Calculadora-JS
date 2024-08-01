@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: rgb(31, 38, 48);
+}
+
+.calculadora{
+    border: 1px black solid;
+    top: 30px;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    left: 30%;
+    border-radius: 30px;
+    background: rgb(33, 39, 48);
+    box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.5);
+}
+
+.result{
+    border: 2px inherit black;
+    border-radius: 20px;;
+    display: block;
+    top: 25px;
+    height: 170px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background: rgb(29, 29, 29);
+    color: white;
+    text-align: right;
+    font-size: 70px;
+}
+
+.result p{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.botao{
+    border: none;
+    margin-bottom: 10px;
+    width: 21%;
+    display: inline-block;
+    margin-left: 8px;
+    height: 77px;
+    border-radius: 10px;
+    text-align: center;
+    font-size:67px;
+}
+
+.buts{
+    margin-top: 45%;
+    justify-items: center;
+    margin-left: 5%
+}
+
+.b0{
+    width: 210px;
+}
+
+.cinza{
+    background: rgb(211, 211, 211);
+}
+
+.cinza:hover{
+    background: rgb(251, 251, 251);
+}
+
+.cinza:active{
+    background: black;
+    color: rgb(211, 211, 211);
+}
+
+.laranja{
+    background: rgb(255, 165, 0);
+    color: white;
+}
+
+.laranja:hover{
+    background: rgb(255, 205, 112);
+    color: white;
+}
+
+.laranja:active{
+    background: white;
+    color: rgb(255, 165, 0);
+}
+
+.gray{
+    background: rgb(68, 68, 68);
+    color: white
+}
+
+.gray:hover{
+    background: rgb(108, 108, 108);
+}
+
+.gray:active{
+    background: white;
+    color: rgb(68, 68, 68);
+}
+
+.botao:hover{
+    cursor: pointer;
+}
